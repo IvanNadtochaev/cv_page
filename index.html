@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <img src="avatar.jpg" alt="myImage" class="avatar">
+        <h1 class="header__title">Ivan NS | CV</h1>
+        <h2 class="class__subtitle">Frontend Developer</h2>
+    </header>
+
+    <main class="main">
+        <section class="skills">
+            <h3>Skills</h3>
+            <details>
+                <summary>Skills-list:</summary>
+                <ol>
+                    <li>1. HTML</li>
+                    <li>2. CSS</li>
+                    <li>3. JS</li>
+                    <li>4. React</li>
+                    <li>5. Typescript</li>
+                </ol>
+            </details>
+        </section>
+
+        <article class="article">
+            <h4>Short article about me</h4>
+            <p>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Маленькая его страну великий языкового составитель мир проектах они, семантика решила заглавных моей единственное однажды прямо переписали взгляд дал буквоград?</p>
+        </article>
+
+        <section class="gallery">
+            <h3>Gallery</h3>
+            <img src="https://placehold.co/250x250" alt="myImage">
+            <img src="https://placehold.co/250x250" alt="myImage">
+            <img src="https://placehold.co/250x250" alt="myImage">
+        </section>
+
+        <hr class="separator">
+
+        <section class="video"><iframe src="https://www.youtube.com/embed/N-Fa1tm3oz0" title="24. Frontender[1.0] CV Page. Вёрстка первой страницы HTML, CSS" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></section>
+
+        <section class="hobbies">
+            <h4>My hobbies: </h4>
+
+            <details>
+                <summary>Hobbies</summary>
+                    <ul>
+                        <li>GYM</li>
+                        <li>Gaming</li>
+                        <li>Walking</li>
+                    </ul>
+            </details>
+        </section>
+
+        <hr class="separator">
+
+        <section class="education">
+            <table class="ed__table">
+                <thead>
+                    <tr>
+                        <th>School / University</th>
+                        <th>Profession</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>IT_School</td>
+                        <td>Ing-Progr</td>
+                        <td>2024</td>
+                    </tr>
+                    <tr>
+                        <td>IT_School-2</td>
+                        <td>Dev-Ing</td>
+                        <td>2025</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="quote">
+            <blockquote>
+                Действие - это единственный путь к успеху
+            </blockquote>
+        </section>
+
+        <section class="interaction">
+            <form action="https://ya.ru" method="get" class="form" target="_blank">
+                <fieldset>
+                <legend>Required Fields</legend>
+                    <label for="firstNameID">FirstName:</label>
+                <input type="text" name="firstName" id="firstNameID" required class="form_control" placeholder="firstName">
+                    <label for="LastNameID">LastName:</label>
+                <input type="text" name="LastName" id="LastNameID" required class="form_control" placeholder="LastName">
+                    <label for="emailID">Email:</label>
+                <input type="email" name="email" id="emailID" required placeholder="Email" class="form_control">
+                </fieldset>
+                <br>
+                <textarea class="form_control control_text" name="questions" cols="30" rows="7" placeholder="textarea"></textarea>
+                <button type="submit" class="form_submit">Submit!</button>
+            </form>
+        </section>
+    </main>
+    <hr class="separator">
+    <footer class="footer">
+        <address>
+            <a href="mailto:7832340@mail.ru" class="contacts">7832340@mail.ru</a>
+            <br>
+            <a href="tel:+375447832340" class="contacts">+375447832340</a>
+        </address>
+    </footer>
+</body>
+</html>
